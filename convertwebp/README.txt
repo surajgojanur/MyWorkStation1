@@ -1,3 +1,18 @@
-Automated Image-to-Video Converter
 
-This Python script automates the conversion of a sequence of images to a video file. It utilizes the OpenCV library to read image files from a specified folder, allowing both JPG and PNG formats. The user is prompted to select the image folder via a dialog box. Additionally, the script enables the selection of frames per second (FPS) for the output video, ensuring flexibility in the final video quality. Upon execution, it seamlessly converts the images into an MP4 video file, simplifying what would otherwise be a manual and time-consuming process.
+Title:
+Image Format Conversion to WebP
+
+Description:
+This Python script is designed to streamline the conversion of various image formats to the WebP format, renowned for its efficient compression and quality retention. Leveraging the PIL (Python Imaging Library) capabilities, it processes images within a specified input folder, preserving their quality while reducing file size.
+
+Utilizing a simple tkinter-based interface, the script prompts users to select both an input folder containing the images in formats such as PNG, JPG, JPEG, or GIF, and an output folder where the converted WebP images will be saved.
+
+Upon execution, the script traverses through the input directory, converting compatible image formats to WebP. For PNG, JPG, and JPEG images, it utilizes the 'WEBP' format to save each file, maintaining image quality with reduced file sizes. Additionally, for GIF files, it employs the 'WEBP' format with the 'save_all=True' parameter to preserve animated aspects during conversion.
+
+The script provides real-time updates, notifying the successful conversion of each image and handling errors encountered during the process. This automation simplifies the otherwise manual task of converting image formats, offering users a more efficient and storage-friendly solution for their image files.
+
+
+
+
+
+
