@@ -32,3 +32,8 @@ const uniqueEmails = [...new Set(emails)];
 
 // Print out the unique emails found
 console.log(uniqueEmails);
+
+
+#Usage Notes
+This script may not capture all email addresses on a webpage, especially if they are obfuscated or hidden behind JavaScript.
+It's recommended to review the collected email addresses for accuracy and legitimacy before using them.
