@@ -1,0 +1,26 @@
+User
+// Select all elements with class "bubble-multiplier"
+const payoutElements = document.querySelectorAll('.bubble-multiplier');
+
+// Define a function to extract the number from an element's text content
+const extractNumber = (textContent) => {
+    // Extract the number from the text content using regular expression
+    return parseFloat(textContent.match(/\d+\.\d+/)[0]);
+};
+
+// Create an array to store the numbers
+const numbers = [];
+
+// Iterate over each element and extract the number
+payoutElements.forEach(element => {
+    // Extract the text content of the element
+    const textContent = element.textContent.trim();
+    // Extract the number from the text content
+    const number = extractNumber(textContent);
+    // Push the number into the array
+    numbers.push(number);
+});
+
+// Log the extracted numbers
+console.log('Numbers:', numbers);
+const numbersSubset = numbers.slice(0, 60);
