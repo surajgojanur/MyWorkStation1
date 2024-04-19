@@ -16,3 +16,6 @@ payoutElements.forEach(element => {
 
 // Log the extracted numbers array
 console.log('Numbers:', numbers);
+
+
+const numbersSubset = numbers.slice(0, 60);
