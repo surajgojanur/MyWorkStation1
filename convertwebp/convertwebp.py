@@ -1,7 +1,7 @@
 from tkinter import Tk, filedialog
 from PIL import Image
 import os
-#suraj
+#suraj gojanur
 def convert_to_webp(input_path, output_path):
     for root, dirs, files in os.walk(input_path):
         rel_path = os.path.relpath(root, input_path)
