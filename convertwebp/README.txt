@@ -12,7 +12,7 @@ Upon execution, the script traverses through the input directory, converting com
 The script provides real-time updates, notifying the successful conversion of each image and handling errors encountered during the process. This automation simplifies the otherwise manual task of converting image formats, offering users a more efficient and storage-friendly solution for their image files.
 
 
-
+sura
 
 
 
