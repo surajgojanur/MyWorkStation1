@@ -33,7 +33,7 @@ function clickNextLink(links, index) {
         return;
     }
 
-    // Click on the current link
+    // Click on the current lin
     links[index].click();
 
     // Wait for a short delay to ensure content loads after the click
