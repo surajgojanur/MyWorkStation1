@@ -1,4 +1,4 @@
-# Internship Tapping Guide Using Email Permutations
+# Job Opportunities Tapping Guide Using Email Permutations
 
 This guide provides detailed steps to effectively reach out to potential employers and increase your chances of securing an internship by generating and validating email addresses using permutations.
 
