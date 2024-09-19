@@ -2,7 +2,7 @@ import os
 from rembg import remove
 from PIL import Image
 
-# Input and output directory paths
+# Input and output directory paths suraj
 input_dir = 'input_images'  # Directory containing jpg images
 output_dir = 'output_images'  # Directory to save the output png images
 
