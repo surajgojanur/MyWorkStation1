@@ -5,6 +5,7 @@
 This JavaScript script allows you to collect all email addresses present on a webpage directly from the console in Chrome developer tools.
 
 ## Instructions
+//suraj
 
 1. Open the webpage from which you want to collect email addresses in Google Chrome.
 2. Right-click on the page and select "Inspect" from the context menu, or press `Ctrl+Shift+I`.
